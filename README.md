@@ -36,4 +36,4 @@ Sentinel is an **intelligent danger detection and reporting platform** designed 
 
 ## **Use Sentinel**
 
-Use Sentinel at ![https://sent1nel.netlify.app/](https://sent1nel.netlify.app/).
+Use Sentinel at [https://sent1nel.netlify.app/](https://sent1nel.netlify.app/).
