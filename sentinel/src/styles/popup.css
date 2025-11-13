@@ -1,0 +1,120 @@
+.leaflet-popup-content-wrapper {
+  background: linear-gradient(to bottom right, #f8fafc, #eff6ff);
+  border-radius: 1rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  border: 1px solid #ffffff;
+  padding: 0;
+  max-width: 400px !important;
+}
+
+.leaflet-popup-content {
+  margin: 0.5rem 2rem 0.5rem 0.75rem;
+  padding: 0.25rem 0.5rem;
+  font-family: "Inter", sans-serif;
+  color: #1e293b;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+.leaflet-popup-content p,
+.leaflet-popup-content form {
+  margin-bottom: 0;
+}
+
+.leaflet-popup {
+  margin-bottom: 0 !important;
+  margin-left: 0 !important;
+}
+
+.leaflet-popup-tip-container {
+  margin-top: -1px;
+}
+
+.leaflet-popup-tip {
+  background: #ffffff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.leaflet-popup-close-button {
+  color: #1d4ed8;
+  font-size: 1.2rem;
+  top: 4px;
+  right: 6px;
+  opacity: 0.8;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.leaflet-popup-close-button:hover {
+  opacity: 1;
+}
+
+.leaflet-popup-content input,
+.leaflet-popup-content textarea,
+.leaflet-popup-content select {
+  width: 100%;
+  border: 1px solid #cbd5e1;
+  border-radius: 0.5rem;
+  padding: 0.5rem 0.7rem;
+  font-size: 0.875rem;
+  color: #1e293b;
+  background-color: #ffffff;
+  transition: all 0.15s ease-in-out;
+  font-family: 'Inter', sans-serif;
+}
+
+.leaflet-popup-content input:focus,
+.leaflet-popup-content textarea:focus,
+.leaflet-popup-content select:focus {
+  outline: none;
+  border: none;
+  box-shadow: 0 0 0 2px #bfdbfe;
+  background-color: #ffffff;
+}
+
+.leaflet-popup-content label {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #475569;
+  display: block;
+  margin-bottom: 0.3rem;
+  margin-top: 0.3rem;
+}
+
+.leaflet-popup-content form > div {
+  margin-bottom: 0.8rem;
+}
+
+.leaflet-popup-content button {
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.45rem 0.9rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.leaflet-popup-content button[type="submit"] {
+  background-color: #646f82;
+  color: white;
+}
+
+.leaflet-popup-content button[type="submit"]:hover {
+  background-color: #646f82;
+}
+
+.leaflet-popup-content button[type="button"] {
+  background-color: #e2e8f0;
+  color: #374151;
+}
+
+.leaflet-popup-content button[type="button"]:hover {
+  background-color: #cbd5e1;
+}
+
+.leaflet-popup-content form div:last-child {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.6rem;
+  margin-top: 0.6rem;
+}

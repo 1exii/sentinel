@@ -1,0 +1,190 @@
+/* === RESET LEAFLET POPUP WRAPPER === */
+.report-popup .leaflet-popup-content-wrapper,
+.report-popup .leaflet-popup-tip-container {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.report-popup .leaflet-popup-content {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* === MAIN CARD === */
+.report-form {
+  font-family: "Poppins", sans-serif;
+  background: #ffffff;
+  border-radius: 14px;
+  width: 300px;
+  padding: 20px 22px 18px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+/* === HEADER === */
+.report-form-title {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #111;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0;
+}
+
+.report-form-title svg {
+  width: 18px;
+  height: 18px;
+  opacity: 0.65;
+
+}
+
+/* === LABELS === */
+.report-form label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #333;
+  display: block;
+  margin-bottom: 4px;
+}
+
+/* === INPUTS === */
+.report-form input,
+.report-form textarea {
+  width: 100%;
+  font-family: inherit;
+  font-size: 0.9rem;
+  color: #000;
+  background: #fafafa;
+  border: 1px solid #d6d6d6;
+  border-radius: 8px;
+  padding: 10px 12px;
+  outline: none;
+  resize: none;
+  transition: border-color 0.15s ease, background 0.15s ease, box-shadow 0.15s ease;
+}
+
+.report-form input::placeholder,
+.report-form textarea::placeholder {
+  color: #999;
+}
+
+.report-popup .report-form input:focus,
+.report-popup .report-form textarea:focus,
+.report-form input:focus,
+.report-form textarea:focus {
+  border-color: #bbb !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.report-popup .report-form input:focus-visible,
+.report-popup .report-form textarea:focus-visible {
+  outline: 2px solid rgba(138, 99, 210, 0.15);
+  outline-offset: 2px;
+}
+
+.report-form textarea {
+  min-height: 80px;
+  line-height: 1.4;
+}
+
+/* === ACTION ROW === */
+.report-form-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+  margin-top: 6px;
+  border-top: 1px solid #eee;
+  padding-top: 12px;
+}
+
+/* === BUTTONS === */
+.report-form button {
+  border: none;
+  border-radius: 6px;
+  padding: 8px 14px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.15s ease, transform 0.15s ease;
+  appearance: none !important;
+  -webkit-appearance: none !important;
+  background-clip: padding-box !important;
+  box-sizing: border-box !important;
+}
+
+.report-popup .report-form button.submit,
+.report-form button.submit {
+  background-color: #8a63d2 !important;
+  color: #ffffff !important;
+  border: 1px solid transparent !important;
+  box-shadow: none !important;
+  -webkit-text-fill-color: #ffffff !important;
+}
+
+.report-popup .report-form button.submit:hover,
+.report-form button.submit:hover {
+  background-color: #7b58bc !important;
+  transform: translateY(-1px);
+}
+
+.report-popup .report-form button.cancel,
+.report-form button.cancel {
+  background: #f4f0fb !important;
+  color: #8a63d2 !important;
+  border: 1px solid transparent !important;
+}
+
+.report-popup .report-form button.cancel:hover,
+.report-form button.cancel:hover {
+  background: #e9e0f8 !important;
+  transform: translateY(-1px);
+}
+
+.report-popup .report-form button:disabled,
+.report-form button:disabled {
+  opacity: 0.5 !important;
+  cursor: not-allowed !important;
+  transform: none !important;
+}
+
+
+/* === UNIVERSAL SAFETY RESET === */
+.report-popup .report-form *,
+.report-form * {
+  box-sizing: border-box;
+  -webkit-appearance: none !important;
+  appearance: none !important;
+  background-clip: padding-box !important;
+}
+
+/* === ANIMATION === */
+.report-form {
+  animation: fadeInPop 0.25s ease;
+}
+
+@keyframes fadeInPop {
+  0% {
+    opacity: 0;
+    transform: scale(0.97);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.report-form input[type="number"] {
+  background: #fafafa;
+  border: 1px solid #d6d6d6;
+  border-radius: 8px;
+  padding: 8px 10px;
+  width: 100%;
+  font-size: 0.9rem;
+  transition: border-color 0.15s ease;
+}
+
