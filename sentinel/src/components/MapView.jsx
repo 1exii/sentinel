@@ -19,6 +19,15 @@ import { collection, onSnapshot, doc, writeBatch, increment } from "firebase/fir
 import { db } from "../firebase/firebase.js";
 import { getDistance } from "geolib";
 
+// fix leaflet images
+delete L.Icon.Default.prototype._getIconUrl;
+
+L.Icon.Default.mergeOptions({
+  iconUrl: '/leaflet/marker-icon.png',
+  iconRetinaUrl: '/leaflet/marker-icon-2x.png',
+  shadowUrl: '/leaflet/marker-shadow.png',
+});
+
 // define global map boundaries 
 const southWest = L.latLng(-90, -180);
 const northEast = L.latLng(90, 180);
