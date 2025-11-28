@@ -34,6 +34,12 @@ Sentinel is an **intelligent danger detection and reporting platform** designed 
 
 ---
 
+## **Demo**
+
+-<img width="1919" height="817" alt="image" src="https://github.com/user-attachments/assets/b9b18405-0c6c-4804-93ab-aab8e51c9492" />
+
+---
+
 ## **Use Sentinel**
 
 Use Sentinel at [https://sent1nel.netlify.app/](https://sent1nel.netlify.app/).
