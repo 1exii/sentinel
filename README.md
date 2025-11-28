@@ -18,7 +18,8 @@ Sentinel is an **intelligent danger detection and reporting platform** designed 
 ## **Features**
 
 - **Real-time incident reporting** with forms and geolocation.  
-- **Interactive map** showing reported incidents using Leaflet.  
+- **Interactive map** showing reported incidents using Leaflet.
+- **Severity classification** of incidents using Gemini API.
 - **Firebase integration** for secure authentication and database storage.  
 - **Responsive UI** for desktop and mobile users.  
 - **Deployment on Netlify** for easy access.  
@@ -29,23 +30,9 @@ Sentinel is an **intelligent danger detection and reporting platform** designed 
 
 - **Frontend:** React, React-Leaflet, CSS  
 - **Backend / Database:** Firebase Firestore  
-- **Authentication:** Firebase Auth (Google Sign-In)  
+- **Authentication:** Firebase Auth (Google Sign-In)
+- **AI / Data Processing:** Gemini API
 - **Hosting:** Netlify  
-
----
-
-## **Demo**
-
-<table>
-  <tr>
-    <td><img src="https://github.com/user-attachments/assets/b9b18405-0c6c-4804-93ab-aab8e51c9492" width="350" /></td>
-    <td><img src="https://github.com/user-attachments/assets/25eb1886-c11c-4001-81fa-bcdec9bc7da7" width="350" /></td>
-  </tr>
-  <tr>
-    <td align="center">Browse alerts near you</td>
-    <td align="center">Report dangerous activity</td>
-  </tr>
-</table>
 
 ---
 
