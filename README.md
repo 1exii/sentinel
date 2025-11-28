@@ -36,7 +36,11 @@ Sentinel is an **intelligent danger detection and reporting platform** designed 
 
 ## **Demo**
 
--<img width="1919" height="817" alt="image" src="https://github.com/user-attachments/assets/b9b18405-0c6c-4804-93ab-aab8e51c9492" />
+-  **Browse alerts near you**
+<img src="https://github.com/user-attachments/assets/b9b18405-0c6c-4804-93ab-aab8e51c9492" width="700" />
+
+- **Report dangerous activity in your neighborhood**
+<img src="https://github.com/user-attachments/assets/25eb1886-c11c-4001-81fa-bcdec9bc7da7" width="700" />
 
 ---
 
